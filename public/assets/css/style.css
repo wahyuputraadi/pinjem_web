@@ -1,0 +1,91 @@
+@font-face {
+    font-family: "Poppins";
+    src: url('../fonts/Poppins-Light.ttf');
+}
+
+#app .detail-product .carousel-indicators li {
+    width: 10px;
+    border-radius: 50%;
+    height: 10px;
+    margin-right: 3px;
+    margin-left: 3px;
+}
+
+.router-link-exact-active {
+    font-weight: bold;
+}
+
+#app {
+    font-family: 'Poppins';
+}
+
+#app .logo-kurir {
+    width: 120px;
+    height: auto;
+}
+
+.btn-success,
+.navbar .badge-success {
+    background: #4eb888;
+    border: none;
+}
+
+
+/* button */
+
+#app .btn-outline-secondary {
+    border: white;
+}
+
+#app .btn-outline-secondary:hover {
+    background-color: #FFA000;
+    color: white;
+    border: white;
+}
+
+.btn-success {
+    background-color: #7A4BC7;
+}
+
+.btn-success:hover {
+    background-color: #FFA000;
+}
+
+
+/* hero */
+
+
+/* #hero {
+    margin-top: 80px;
+    margin-bottom: 80px;
+} */
+
+
+/* card product */
+
+#card-product .card {
+    border-radius: 15px;
+}
+
+#card-product .card-img-top {
+    border-radius: 15px 15px 0px 0px;
+}
+
+
+/* food details */
+
+.food-detail .breadcrumb,
+.keranjang .breadcrumb {
+    background-color: transparent;
+    padding: 0;
+}
+
+.food-detail .breadcrumb-item.active,
+.keranjang .breadcrumb-item.active {
+    font-weight: bold;
+    color: black;
+}
+
+.img-fluid {
+    border-radius: 15px;
+}
