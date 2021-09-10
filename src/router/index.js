@@ -4,6 +4,8 @@ import Home from '../views/Home.vue'
 import ProductDetail from '../views/ProductDetail.vue'
 import ProductMitra from '../views/ProductMitra.vue'
 import Order from '../views/Order.vue'
+import DaftarMitra from '../views/DaftarMitra.vue'
+import OrderBerhasil from '../views/OrderBerhasil.vue'
 
 
 Vue.use(VueRouter)
@@ -14,9 +16,19 @@ const routes = [{
         component: Home
     },
     {
+        path: '/daftar-mitra',
+        name: 'DaftarMitra',
+        component: DaftarMitra
+    },
+    {
         path: '/product-detail',
         name: 'ProductDetail',
         component: ProductDetail
+    },
+    {
+        path: '/order-berhasil',
+        name: 'OrderBerhasil',
+        component: OrderBerhasil
     },
     {
         path: '/product-mitra',
