@@ -38,7 +38,7 @@
               <div class="card-body">
                 <h5 class="card-title"><strong>Kedai Cek Nur</strong></h5>
                 <p class="card-text">Mie Ayam Bakso Mantapp Harga Anak Kos</p>
-                <router-link class="btn btn-success" to="/">Lihat Toko <i class="fas fa-arrow-right"></i></router-link>
+                <router-link class="btn btn-success" to="https://wa.me/628117317173">Lihat Toko <i class="fas fa-arrow-right"></i></router-link>
               </div>
           </div>
         </div>
